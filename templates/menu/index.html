@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block title %} Меню {% endblock %}
+{% load draw_menu %}
+{% block content %}
+  {% draw_menu 'Магазин' %}
+  {% draw_menu 'Дом' %}
+  {% draw_menu 'Планеты' %}
+{% endblock %}
